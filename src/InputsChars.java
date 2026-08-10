@@ -10,6 +10,5 @@ class InputsChars{
 
         System.out.println("THE VALID KEY ENTERED IS: " + ch);
     }
-
 }
 
