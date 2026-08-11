@@ -1,6 +1,6 @@
 class GuessLetter{
     public static void main(String args[])
-        throws java.io.IOException{
+            throws java.io.IOException{
 
         char ch, rightanswer = 'S';
 
@@ -14,7 +14,7 @@ class GuessLetter{
         }
         else System.out.println("Wrong Letter, Try again!");
 
-        //To add a netsed if to this particular program
+        //To add a nested if to this particular program
         if (ch < rightanswer) System.out.println("Sorry, too Low");
         else System.out.println("Sorry, you are too high");
     }
