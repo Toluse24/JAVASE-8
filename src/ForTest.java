@@ -4,10 +4,10 @@ class ForTest{
                 int i;
                 char ch;
 
-                System.out.println("PRESS S TO STOP");
+                System.out.println("PRESS s TO STOP");
 
 
-                for (i = 0; (char) System.in.read() != 'S'; i++) {
+                for (i = 0; (char) System.in.read() != 's'; i++) {
                     System.out.println("pass #" + i);
                 }
             }
