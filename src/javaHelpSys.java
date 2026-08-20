@@ -1,4 +1,4 @@
-class Help4 {
+class javaHelpSys {
     public static void main(String args[])
         throws java.io.IOException {
         char choice, ignore;
