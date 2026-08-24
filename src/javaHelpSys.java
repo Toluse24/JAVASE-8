@@ -13,7 +13,7 @@ class javaHelpSys {
                 System.out.println("    5. DO-WHILE STATEMENT.");
                 System.out.println("    6. BREAK STATEMENT.");
                 System.out.println("    7. CONTINUE STATEMENT.");
-                System.out.print(" PLEASE CHOOSE ANY (q TO QUIT): ");
+                System.out.print(" PLEASE ENTER YOUR INPUT CHOICE....:");
 
                 choice = (char) System.in.read();
 

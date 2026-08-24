@@ -1,5 +1,3 @@
-package tests;
-
 public class ForCount {
     public static void main(String args[]) {
         int i;

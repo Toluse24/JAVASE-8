@@ -1,26 +1,24 @@
-package tests;
-
 class CaseChg {
-    public static void main(String args[])
+    public static void main( String args[])
         throws java.io.IOException {
 
         char ch;
         int changes = 0;
 
-        System.out.print("PLEASE ENTER AN ALPHABET..: ");
+        System.out.println("PLEASE ENTER AN ENGLISH ALPHABET...");
         do {
             ch = (char) System.in.read();
-            if (ch >='a' && ch <= 'z') {
+            if (ch >= 'a' && ch <= 'z') {
                 ch -= 32;
                 changes++;
                 System.out.println(ch);
             } else
-                if (ch >='A' && ch <='Z') {
-                    ch +=32;
+                if (ch >='A' && ch <= 'Z') {
+                    ch += 32;
                     changes++;
                     System.out.println(ch);
                 }
         } while (ch != '.');
-        System.out.println("Case Changes: " + changes);
+        System.out.println("Case Chnages: " + changes);
     }
 }
