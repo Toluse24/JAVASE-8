@@ -8,7 +8,8 @@ class Vehicle {
 
 class VehicleDemo {
     public static void main(String args[]) {
-        /*Vehicle car1 = new Vehicle();
+        /*
+        Vehicle car1 = new Vehicle();
         Vehicle car2 = car1;
 
         car1.mpg = 26;
